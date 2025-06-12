@@ -1,20 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { Text, View } from "react-native";
+import "./global.css";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Odinokun's RN AI Chat!!!</Text>
+    <View className="flex-1 items-center justify-center bg-accent dark:bg-primary ">
+      <Text className="text-4xl font-bold text-primary dark:text-accent">Odinokun's RN AI Chat!</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'orange',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
