@@ -9,12 +9,12 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { useState } from "react";
 
-type PropsType = {
+interface ChatInputProps {
   onSend: (message: string) => void;
-  isLoading: boolean;
-};
+  isLoading?: boolean;
+}
 
-export default function ChatInput({ onSend, isLoading }: PropsType) {
+export default function ChatInput({ onSend, isLoading }: ChatInputProps) {
   const insets = useSafeAreaInsets();
 
   const [message, setMessage] = useState("");
