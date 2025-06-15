@@ -4,7 +4,6 @@ import { FlatList, Text, View } from "react-native";
 import chatHistory from "@assets/data/chatHistory.json";
 import ChatInput from "@/components/ChatInput";
 import MessageListItem from "@/components/MessageListItem";
-import { Message } from "@/types/types";
 
 export default function ChatScreen() {
   const { id } = useLocalSearchParams();

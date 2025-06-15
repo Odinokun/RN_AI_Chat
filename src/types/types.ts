@@ -1,7 +1,6 @@
 export interface Message {
   id: string;
-  role: string;
-  // role: 'user'  | 'assistant' ;
+  role: "user" | "assistant";
   message: string;
   responseId?: string;
 }
