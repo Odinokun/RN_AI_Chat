@@ -37,7 +37,7 @@
       {
         "id": "2-2",
         "role": "assistant",
-        "message": "Try a 3-day split: Day 1: Squats, push-ups, rows; Day 2: Rest; Day 3: Deadlifts, bench press, planks. 3 sets of 10-12 reps each."
+        "message": "Try a 3-day split: Day 1: Squats, push-ups, rows; Day 2: Rest; Day 3:  bench press, planks. 3 sets of 10-12 reps each."
       },
       {
         "id": "2-3",
@@ -63,7 +63,7 @@
       {
         "id": "3-2",
         "role": "assistant",
-        "message": "Focus on high-protein, low-carb meals: Breakfast: Greek yogurt with berries; Lunch: Grilled chicken salad; Dinner: Salmon with steamed veggies."
+        "message": "Focus on high-protein, low meals: Breakfast: Greek yogurt with berries; Lunch: Grilled chicken salad; Dinner: Salmon with steamed veggies."
       },
       { "id": "3-3", "role": "user", "message": "Any snack ideas?" },
       {
@@ -85,7 +85,7 @@
       {
         "id": "4-2",
         "role": "assistant",
-        "message": "Consider a story about a rogue AI terraformer that starts reshaping Earth to mimic an alien planet."
+        "message": "Consider a story about a rogue AI terraformed that starts reshaping Earth to mimic an alien planet."
       },
       {
         "id": "4-3",
@@ -133,7 +133,7 @@
       {
         "id": "6-2",
         "role": "assistant",
-        "message": "Estimate your BMR using the Mifflin-St Jeor formula, then multiply by your activity level (1.2 for sedentary, up to 1.9 for very active)."
+        "message": "Estimate your BMR using the Muffin-St Jeer formula, then multiply by your activity level (1.2 for sedentary, up to 1.9 for very active)."
       },
       {
         "id": "6-3",
@@ -243,7 +243,7 @@
       {
         "id": "10-4",
         "role": "assistant",
-        "message": "Consider Budapest, Hungary, or Chiang Mai, Thailand, for affordable yet vibrant experiences."
+        "message": "Consider Budapest, Hungary, or Chang Mai, Thailand, for affordable yet vibrant experiences."
       }
     ]
   },

@@ -4,13 +4,15 @@ import { FlatList, Text, View } from "react-native";
 import chatHistory from "@assets/data/chatHistory.json";
 import ChatInput from "@/components/ChatInput";
 import MessageListItem from "@/components/MessageListItem";
+import { Message } from "@/types/types";
 
 export default function ChatScreen() {
   const { id } = useLocalSearchParams();
 
   const chat = chatHistory.find((chat) => chat.id === id);
 
-  const handleSend = (message: string) => console.log("Sending: ", message);
+  const handleSend = async (message: string) =>
+    console.log("Sending: ", message);
 
   if (!chat) {
     return (
