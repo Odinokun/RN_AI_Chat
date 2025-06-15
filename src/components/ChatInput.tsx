@@ -35,7 +35,7 @@ export default function ChatInput({ onSend, isLoading }: PropsType) {
       keyboardVerticalOffset={Platform.OS === "ios" ? 80 : 0}
     >
       <View
-        className="bg-[#262626] rounded-t-2xl"
+        className="rounded-t-2xl bg-[#262626]"
         style={{ paddingBottom: insets.bottom }}
       >
         <TextInput
@@ -44,10 +44,10 @@ export default function ChatInput({ onSend, isLoading }: PropsType) {
           onChangeText={setMessage}
           placeholderTextColor="gray"
           multiline
-          className="text-white pt-6 pb-2 px-4"
+          className="px-4 pb-2 pt-6 text-white"
         />
 
-        <View className="justify-between items-center px-4  flex-row">
+        <View className="flex-row items-center justify-between px-4">
           <MaterialCommunityIcons name="plus" size={24} color="white" />
 
           {!!message ? (
@@ -60,13 +60,13 @@ export default function ChatInput({ onSend, isLoading }: PropsType) {
               onPress={handleSend}
             />
           ) : (
-            <View className="bg-white p-2 rounded-full flex-row gap-2">
+            <View className="flex-row gap-2 rounded-full bg-white p-2">
               <MaterialCommunityIcons
                 name="account-voice"
                 size={16}
                 color="black"
               />
-              <Text className="text-black text-sm">Voice</Text>
+              <Text className="text-sm text-black">Voice</Text>
             </View>
           )}
         </View>
